@@ -7,6 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Layer Caker</title>
       <body>{children}</body>
     </html>
   );
