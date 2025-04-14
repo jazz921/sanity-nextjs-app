@@ -1,5 +1,7 @@
 import {defineType, defineArrayMember} from 'sanity'
 import {ImageIcon} from '@sanity/icons'
+import { HightlightIcon } from '../Icon'
+import { UnderlineIcon } from '@sanity/icons'
 
 /**
  * This is the schema type for block content used in the post document type
@@ -39,6 +41,13 @@ export const blockContentType = defineType({
         decorators: [
           {title: 'Strong', value: 'strong'},
           {title: 'Emphasis', value: 'em'},
+          {title: 'Underline', value: 'underline', icon: UnderlineIcon},
+          {title: 'Strike', value: 'strike-through'},
+          {
+            title: 'Highlight',
+            value: 'highlight',
+            icon: HightlightIcon
+          }
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: [
