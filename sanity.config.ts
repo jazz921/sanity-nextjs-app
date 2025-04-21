@@ -14,7 +14,7 @@ import {schema} from './src/sanity/schemaTypes'
 import {structure} from './src/sanity/structure'
 
 export default defineConfig({
-  title: "Cake",
+  title: "CMS",
   basePath: '/studio',
   projectId,
   dataset,

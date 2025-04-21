@@ -1,9 +1,9 @@
 import { defineArrayMember, defineField, defineType } from "sanity";
 import { BlockElementIcon } from "@sanity/icons";
 
-export const contentType = defineType({
-  name: "content",
-  title: "Content",
+export const widgetType = defineType({
+  name: "widget",
+  title: "Widget",
   type: "document",
   icon: BlockElementIcon,
   fields: [

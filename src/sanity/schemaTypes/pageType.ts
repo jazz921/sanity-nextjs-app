@@ -19,9 +19,9 @@ export const pageType = defineType({
       },
     }),
     defineField({
-      name: "pagePlacements",
+      name: "pageContents",
       type: "array",
-      of: [defineArrayMember({ type: "reference", to: { type: "content" } })],
+      of: [defineArrayMember({ type: "reference", to: { type: "pageContent" } })],
     }),
   ]
 })
